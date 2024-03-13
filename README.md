@@ -4,4 +4,4 @@ This project is a JavaScript Dice game that visually changes upon refresh. The d
 
 ## Project Goals
 
-The goal of this project was to practice beginner + intermediate JavaScript concepts, showcase skills gained, and display an understanding of logic.
+The goal of this project was to practice DOM manipulation, beginner + intermediate JavaScript concepts, showcase skills gained, and display an understanding of logic.
