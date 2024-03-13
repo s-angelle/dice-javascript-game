@@ -1,9 +1,13 @@
+// Create global variables to be utilized in the game
+
+const mainHeading = document.querySelector('h1');
 const randomNumber1 = Math.floor(Math.random() * 6) + 1;
 const randomNumber2 =  Math.floor(Math.random() * 6) + 1;
 const playerOneImage = document.getElementById('playerOneImage');
 const playerTwoImage = document.getElementById('playerTwoImage');
-const mainHeading = document.querySelector('h1');
 
+
+// Create a function that determines the winner based on the outcome of generated numbers
 
 getWinner = () => {
 
@@ -21,6 +25,10 @@ getWinner = () => {
     }
 }
 
+getWinner();
+
+
+// Create a function that changes Player 1's image
 
 changePlayer1Image = () => {
 
@@ -59,6 +67,7 @@ changePlayer1Image = () => {
 changePlayer1Image();
 
 
+// Create a function that changes Player 2's image
 
 changePlayer2Image = () => {
 
